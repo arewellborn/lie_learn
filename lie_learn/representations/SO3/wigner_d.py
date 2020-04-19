@@ -1,4 +1,5 @@
-
+import pyximport
+pyximport.install()
 import numpy as np
 
 from lie_learn.representations.SO3.pinchon_hoggan.pinchon_hoggan_dense import Jd, rot_mat
